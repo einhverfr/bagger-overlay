@@ -23,7 +23,7 @@ RDEPEND="dev-haskell/hasql:=[profile?]
 	dev-lang/ghc:="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:=
-	test? ( dev-haskell/quickcheck:2=[profile?]
+	test? ( dev-haskell/quickcheck:=[profile?]
 		dev-haskell/quickcheck-instances:=[profile?]
 		dev-haskell/rerebase:=[profile?]
 		dev-haskell/tasty:=[profile?]

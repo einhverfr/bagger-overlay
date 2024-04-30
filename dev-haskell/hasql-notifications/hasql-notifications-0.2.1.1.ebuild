@@ -26,7 +26,7 @@ RDEPEND="dev-haskell/contravariant:=[profile?]
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:=
 	test? ( dev-haskell/hspec:=[profile?]
-		dev-haskell/quickcheck:2=[profile?] )"
+		dev-haskell/quickcheck:=[profile?] )"
 
 src_prepare() {
 	default

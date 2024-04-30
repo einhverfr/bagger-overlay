@@ -34,7 +34,7 @@ RDEPEND="dev-haskell/attoparsec:=[profile?]
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:=
 	test? ( dev-haskell/contravariant-extras:=[profile?]
-		dev-haskell/quickcheck:2=[profile?]
+		dev-haskell/quickcheck:=[profile?]
 		dev-haskell/quickcheck-instances:=[profile?]
 		dev-haskell/rerebase:=[profile?]
 		dev-haskell/tasty:=[profile?]
